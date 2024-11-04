@@ -1,0 +1,15 @@
+{
+  "name": "bowi-chat",
+  "scripts": {
+    "dev": "wrangler dev --ip 192.168.1.50 --port 8787",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "hono": "^4.6.9",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "wrangler": "^3.83.0"
+  }
+}
